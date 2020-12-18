@@ -19,12 +19,8 @@ const  App = () => {
         .then((res) => setData(res.data))
         .catch((error) => console.log(error));
 
-        
-  
-
-
   };
-  // console.log(data);
+ 
 
   useEffect(()=> {
     fetchData();
@@ -37,7 +33,7 @@ const  App = () => {
       <CommentList data={data} />
     </div>
     <div>
-      {/* <CommentForm/> */}
+      <CommentForm/>
     </div>
   </div>
   );

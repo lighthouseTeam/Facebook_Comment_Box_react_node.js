@@ -27,6 +27,7 @@ const  App = () => {
   }, []);
 
   return (
+
     <div>
     <div>
       <h2>Comments:</h2>
@@ -34,6 +35,7 @@ const  App = () => {
     </div>
     <div>
       <CommentForm/>
+
     </div>
   </div>
   );

@@ -8,7 +8,7 @@ const CommentList = ({data}) => {
             return(
             <div className="singleComment">
             <h3> Author : {item.author}</h3>
-            <p>Comment : {item.comment} </p>
+            <p> Comment : {item.comment} </p>
       </div> )} )} 
      </div>)
     

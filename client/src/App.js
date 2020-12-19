@@ -33,6 +33,7 @@ const  App = () => {
       <h2>Comments:</h2>
       <CommentList data={data} />
       <p>hadi bakalim</p> 
+      <p> bu son</p>
     </div>
     <div>
       <CommentForm/>

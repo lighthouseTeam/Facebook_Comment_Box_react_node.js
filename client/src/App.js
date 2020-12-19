@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import CommentList from "./CommentList";
 import CommentForm from "./CommentForm";
+import logo from "./img/logo.png";
 
 const App = () => {
   const [data, setData] = useState([]);
@@ -20,6 +21,8 @@ const App = () => {
 
   return (
     <div>
+      <img src={logo} alt="lighthouse-team" />
+      <h1>Developped by lighthouse-team</h1>
       <div>
         <h2>Comments:</h2>
         <CommentList data={data} />

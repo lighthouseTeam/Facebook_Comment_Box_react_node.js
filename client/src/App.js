@@ -32,6 +32,7 @@ const  App = () => {
     <div>
       <h2>Comments:</h2>
       <CommentList data={data} />
+      <p>hadi bakalim</p> 
     </div>
     <div>
       <CommentForm/>

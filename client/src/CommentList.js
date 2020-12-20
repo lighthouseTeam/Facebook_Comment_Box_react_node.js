@@ -1,15 +1,14 @@
 import React from 'react';
-
+import Comment from "./Comment"
 const CommentList = ({data}) => {
     console.log(data);
     return (
         <div>
         {data.map((item)=>{
             return(
-            <div className="singleComment">
-            <h3> Author : {item.author}</h3>
-            <p> Comment : {item.comment} </p>
-      </div> )} )} 
+            
+            <Comment author = {item.author} comment = {item.comment} key = {item._id} />
+       )} )} 
      </div>)
     
 

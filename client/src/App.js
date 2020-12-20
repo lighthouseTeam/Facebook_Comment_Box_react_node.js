@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <img src={logo} alt="lighthouse-team" />
+      <img className="logo" src={logo} alt="lighthouse-team" />
       <h1>Developped by lighthouse-team</h1>
       <div className="comments">
         <h2>Comments:</h2>
